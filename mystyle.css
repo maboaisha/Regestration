@@ -1,0 +1,286 @@
+@font-face {
+    font-family: "comic sans ms";
+    src: url(ComicSansMS3.ttf);
+}
+@font-face {
+    font-family: "uni";
+    src: url(fonts/unispace\ rg.ttf);
+}
+@font-face {
+    font-family: "arial";
+    src: url(fonts/Arial_Rounded_MT.ttf);
+}
+@font-face {
+    font-family: "tahoma";
+    src: url(fonts/Tahoma\ Regular\ font.ttf);
+}
+h4{
+    font-family: arial;
+}
+p, td, th, label{
+    font-family: "tahoma";
+}
+h3{
+    font-family: "arial";
+
+}
+body{
+    margin: 0;
+}
+h1{
+    font-family: uni;
+    margin-left: 77px;
+    font-size: 43px;
+}
+.allex{
+    margin: -27px 0px 0px 16px;
+}
+li{
+    font-family: "comic sans ms";
+}
+.in{
+    position: absolute;
+    left: 280px;
+    border-radius: 7px;
+    
+}
+.in:not(textarea){
+    height: 23px;
+    width: 200px;
+}
+.infile{
+    position: absolute;
+    left: 280px;
+    border: 0;
+}
+.inf{
+    position: absolute;
+    left: 179px;
+}
+.inu{
+    position: absolute;
+    left: 285px;
+}
+.file{
+    position: absolute;
+    left: 286px;
+}
+.url{
+    position: absolute;
+    left: 400px;
+}
+/* .radio{
+    position: absolute;
+    left: 300px;
+} */
+
+.save, .reset, .save2, .reset2{
+    border-radius: 7px;
+    padding: 5px;
+    width: 200px;
+    color: white;
+}
+.save{
+    background-color: #198754;
+    margin: 79px 0 0 46px;
+}
+.reset{
+    background-color: #dc3545;
+    margin: 79px 0 0 100px
+}
+
+img{
+    width: 66px;
+    height: 64px;
+    margin: 5px;
+    display: inline-block;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px 30px;
+    padding: 5px; 
+}
+font-face{
+    font-family: "comic sans ms";
+
+}
+.nav{
+    background-color: #00BAFF;
+    padding: 1px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+td{
+    padding: 15px;
+}
+.col{
+    font-weight: bold;
+}
+table{
+    margin: -7px 60px;
+    width: 95%
+}
+tr{
+    height: 80px;
+}
+li :hover{
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.links, .logo{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.table1, .img{
+    display: flex;
+}
+
+.addcourse{
+    display: flex;
+    justify-content: space-between;
+}
+.fo .courseimg{
+    display: flex;
+}
+.courseimg{
+    margin: 30px 1px;
+    height: 500px;
+}
+div .courseimg img{
+    width: 495px;
+    height: 613px;
+    margin: 20px 62px;
+}
+form div{
+    padding: 20px;
+}
+/* .course, th, td{
+    border: 1px solid black;
+} */
+.course th, .course td{
+    padding: 2px 16px 6px 12px;
+    text-align: center;
+
+}
+div .table1 .info th, td{
+    text-align: left;
+}
+.one{
+    background-color: #606060;
+}
+.two{
+    background-color: #E5E5E5;
+}
+.course, .course th, .course td{
+    border: 1px solid black;
+}
+.course{
+    margin: -19px 31px;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.allcourse{
+    margin-top: 13px;
+    margin-left: 36px;
+}
+form{
+    margin: 30px 80px ;
+}
+.course tr{
+    height: 80px;
+}
+
+
+.fo div input:not(.radio){
+    width: 200px;
+
+}
+
+textarea, form div input:not(.infile){
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+select{
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-left: 29px;
+}
+form div{
+    display: flex;
+}
+
+.save2{
+    background-color: #198754;
+    margin: 95px 14px 0px 36px;
+
+}
+.reset2{
+    background-color: #dc3545;
+    margin: 95px 0 0 70px;
+}
+.addex, .content{
+    display: flex;
+    justify-content: space-between;
+}
+.fo2, .logo2{
+    display: flex;
+}
+/* .logo2{
+    margin: 30px 40px;
+    height: 500px;
+} */
+div .logo2 img{
+    width: 348px;
+    height: 460px;
+    margin: 52px 84px;
+}
+sub{
+    margin: 10px;
+}
+.viewex{
+    margin: 40px;
+}
+h3, h4, p{
+    margin: 32px 76px;
+    margin: 32px 13px;
+}
+.attachment{
+    width: 1162px;
+    height: 714px;
+    margin: 4px 95px;
+    box-shadow: 5px 5px 8px #888888;
+}
+div .img img{
+    height: 506px;
+    width: 506px;
+    margin: 29px 106px;
+}
+select, .fo2 div input{
+    width: 183px;
+    height: 23px;
+}
+.add{
+    margin: 20px 30px;
+}
+.certificate, caption{
+    margin-left: 56px;
+}
